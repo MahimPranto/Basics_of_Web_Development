@@ -1,0 +1,129 @@
+body{
+    margin:auto;
+    padding: 0;
+    background-size: cover;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    padding-bottom: 2%;
+}
+.logo img{
+    width: 10%;
+    height: 10%;
+    padding-left: 20px;
+}
+.logo p{
+    padding-left: 2%;
+}
+.header {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px;
+}
+nav a.active {
+    color:aqua;
+}
+.featuredImage img{
+    width: 60%;
+    height: 80%;
+    float:right;
+    align-items: center;
+
+}
+.featured{
+    display: flex;
+    margin: 2%;
+    align-items: center;
+}
+.featuredExcerpt a, .half-width a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.featuredTitle{
+    color: goldenrod;
+}
+.featuredPost h3{
+    color:bisque
+}
+article img{
+    width: 80%;
+    height: 90%;
+}
+article{
+    padding: 2%;
+    float: left;
+}
+.half-width{
+    float: left;
+    width: 50%;
+}
+.categories{
+    padding-bottom: 2%;
+}
+.categories a{
+    text-decoration: none;
+}
+.sidebar{
+    padding: 2%;
+}
+.contactTitle{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+}
+.homeTitle{
+    text-align: center;
+    padding-top: 2%;
+}
+.footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 2rem;
+    padding-top: 2%;
+    color: #fff;
+
+}
+.blog1 img{
+    display: block;
+    margin: 0 auto;    
+}
+.blog1 h2{
+    text-align: center;
+}
+.blog2 img{
+    display: block;
+    margin: 0 auto;    
+}
+.blog2 h2{
+    text-align: center;
+}
+.blog3 img{
+    display: block;
+    margin: 0 auto;    
+}
+.blog3 h2{
+    text-align: center;
+}
+.ftPost img{
+    display: block;
+    margin: 0 auto;  
+}
+.ftPost h2{
+    text-align: center;
+}
