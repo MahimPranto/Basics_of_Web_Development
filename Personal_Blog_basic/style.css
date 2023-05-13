@@ -1,7 +1,6 @@
 body{
     margin:auto;
     padding: 0;
-    background-size: cover;
 }
 .top{
     display: flex;
@@ -10,7 +9,7 @@ body{
 }
 .logo{
     display: flex;
-    padding-bottom: 2%;
+    /* padding-bottom: 2%; */
 }
 .logo img{
     width: 10%;
@@ -21,7 +20,7 @@ body{
     padding-left: 2%;
 }
 .header {
-    padding: 10px;
+    padding: 1%;
     background-color: #333;
     color: #fff;
 }
@@ -43,7 +42,7 @@ nav a.active {
 }
 .featured{
     display: flex;
-    margin: 2%;
+    padding: 0% 2% 0% 2%;
     align-items: center;
 }
 .featuredExcerpt a, .half-width a{
@@ -61,6 +60,9 @@ article img{
     width: 80%;
     height: 90%;
 }
+.posts{
+    padding-bottom: 5%;
+}
 article{
     padding: 2%;
     float: left;
@@ -70,7 +72,7 @@ article{
     width: 50%;
 }
 .categories{
-    padding-bottom: 2%;
+    padding-bottom: 7%;
 }
 .categories a{
     text-decoration: none;
@@ -81,8 +83,14 @@ article{
 .contactTitle{
     text-align: center;
 }
+.icons{
+    padding-top: 0.5%;
+}
 .icons a{
+    /* display: flex; */
     text-decoration: none;
+    color: white;
+    padding-right:2%;
 }
 .homeTitle{
     text-align: center;
@@ -94,10 +102,11 @@ article{
     width: 100%;
     background-color: black;
     text-align: center;
-    height: 2rem;
+    height: 2.5rem;
     padding-top: 2%;
     color: #fff;
-
+    text-align: center;
+    padding-bottom: 1%;
 }
 .blog1 img{
     display: block;
@@ -126,4 +135,28 @@ article{
 }
 .ftPost h2{
     text-align: center;
+}
+.homeContent{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 9.7%;
+}
+.author{
+    text-align: right;
+}
+.contactForm{
+    text-align: center;
+    align-items: center;
+    padding:  0px 30% 5% 30%;
+}
+.contactbox{
+    border: black solid;
+    border-style:inset;
+    padding:  3%;
+
+}
+.socialSharing{
+    display: flex;
+    float: right;
+    align-items: center;
 }

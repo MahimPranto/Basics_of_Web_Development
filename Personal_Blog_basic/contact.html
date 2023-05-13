@@ -19,26 +19,41 @@
         <nav class="nav">
           <a class="nav-item" href="/index.html">Home</a>
           <a class="nav-item" href="/blog.html">Blog</a>
+          <a class="nav-item" href="/singlePage.html">Full Posts</a>
           <a class="nav-item active" href="/contact.html">Contact</a>
         </nav>
       </div>
     </section>
   </header>
   <div class="contactTitle">
-      <h1>Contact Details</h1>
-      <h3>You can contact or follow me on the following platforms</h3>
+      <h1>Contact Me</h1>
   </div>
-  <div class="icons">
-    <ul>
-        <li><a href="https://www.facebook.com/MahimPranto" target="_blank"> <i class="fa-brands fa-square-facebook"></i>  Facebook</a></li>
-        <li><a href="https://www.linkedin.com/in/mahimpranto/" target="_blank"><i class="fa-brands fa-linkedin"></i>  Linkedin</a></li>
-        <li><a href="https://github.com/MahimPranto" target="_blank"><i class="fa-brands fa-square-github"></i>  Github</a></li>
-        <li><a href="https://www.instagram.com/mahim_rahman_pranto/" target="_blank"><i class="fa-brands fa-square-instagram"></i>  Instagram</a></li>
-        <li><a href="https://twitter.com/PrantoMRP" target="_blank"><i class="fa-brands fa-square-twitter"></i>  Twitter</a></li>
-        
-    </ul>
-  </div>
+  <div class="contactForm">
+    <form action="/submit-form" method="POST" class="contactbox">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" autocomplete="off" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" autocomplete="off" required><br><br>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" autocomplete="off" required><br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" autocomplete="off" required></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
 
-  <footer class="footer">Ⓒ Md. Mahim Rahman Pranto</footer>
+  </div>
+  
+
+  <footer class="footer">
+    <div class="copyRight">Ⓒ Md. Mahim Rahman Pranto</div>
+    <div class="icons">
+      <a href="https://www.facebook.com/MahimPranto" target="_blank"> <i       class="fa-brands fa-square-facebook"></i>  Facebook</a>
+      <a href="https://www.linkedin.com/in/mahimpranto/" target="_blank"><i class="fa-brands fa-linkedin"></i>  Linkedin</a>
+      <a href="https://github.com/MahimPranto" target="_blank"><i class="fa-brands   fa-square-github"></i>  Github</a>
+      <a href="https://www.instagram.com/mahim_rahman_pranto/" target="_blank"><i class="fa-brands fa-square-instagram"></i>  Instagram</a>
+      <a href="https://twitter.com/PrantoMRP" target="_blank"><i class="fa-brands fa-square-twitter"></i>  Twitter</a>
+    </div> 
+  </footer>
+  
 </body>
 </html>
