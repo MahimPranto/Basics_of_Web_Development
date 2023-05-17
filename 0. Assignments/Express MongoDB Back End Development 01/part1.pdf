@@ -1,0 +1,43 @@
+#Part 1: Answer each of the following questions in a few sentences
+
+1. What is client-side and server-side in web development, and what is the main difference between the two?
+
+Ans: Client-side mainly refers to the user device from where request is send to the server. 
+    
+On the other hand, server-side is where the codes are stores. It recives the request from the client and send a response.
+
+The main difference between them is that client-side code is accessible by everyone who visits the website but the server-side is accessible by authorized individuals only.
+
+
+
+2. What is an HTTP request and what are the different types of HTTP requests?
+
+Ans: An HTTP request is a request sent by a client/web browser to perform a specific action or   get specific data. This request is made by the client using components of a URL. HTTP Request is the first step to initiate web request/response communication. Every request is a combination of request header, body and request URL.
+
+There are many types of HTTP requests, such as, GET, POST, PUT, PATCH, and DELETE
+
+
+
+3. What is JSON and what is it commonly used for in web development?
+
+Ans: JSON:JavaScript Object Notation 
+It is a lightweight data-interchange format that is completely language independent. 
+    
+It is commonly used in web development to transmit data between a server and a client in a readable format.
+    
+
+4. What is a middleware in web development, and give an example of how it can be used.
+
+Ans: Middleware is a special types of controller, which is executed when a request is sent. However, it is executed before the response is made.It basically acts as a connector between a request and a response.
+
+Example: 
+Middleware can be used for login or authorization purposes. When a user sends a request for login, the middleware can intercept the request and perform validation checks to see if the user is authorized or not.
+
+If the user is authorized, the middleware will allow the request to proceed to the appropriate controller or route for further processing. Otherwise, it will send an error response indicating that the user is unauthorized.
+
+
+5. What is a controller in web development, and what is its role in the MVC architecture?
+
+Ans: Controller is a function, class, or a bunch of code that respond on request and process response based on the request. It acts as a bridge between a request and a response. It basically handles the user's interactions and coordinates the flow of data. 
+
+MVC: MVC (Model, View, Controller) is used where the client-side and the server-side are contained together. In MVC, controller is related to the server-side. When a request is performed from a route, controller processes it. During this process, model may or may not be needed. If model is needed, controller will interact with models and send back the response to the client.
